@@ -1,10 +1,16 @@
 /* Common styles */
 
-.body { font-family: sans-serif;
+.body { font-family: 'Montserrat', sans-serif;
+
 
 }
 
-a {
+a {text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
 }
 
 /* Header Styles */
@@ -15,6 +21,16 @@ a {
 
 }
 .header-logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em; 
+    color: #111111;
+}
+
+.header-logo-italic {
+
+    font-style: italic;
 }
 
 .logo-img {
