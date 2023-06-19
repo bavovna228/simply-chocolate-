@@ -1,61 +1,62 @@
 /* Common styles */
 
-body { font-family: 'Montserrat', sans-serif;
-color: #111111;
-background-color: #FAFAFA;
-
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #111111;
+  background-color: #fafafa;
 }
 
-a {text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 button {
-    font-family: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
 }
 
 /* Header Styles */
 .header {
-
 }
 .header-nav {
-
 }
 .header-logo {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.11;
-    letter-spacing: -0.03em; 
-    color: #111111;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111111;
 }
 
 .header-logo-italic {
-
-    font-style: italic;
+  font-style: italic;
 }
 
 .logo-img {
-
 }
 .header-list {
-
 }
 .header-item {
-
 }
 .header-link {
-
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #111111;
 }
 .header-networks {
-
 }
 .header-networks-item {
-
 }
 .header-networks-link {
-
 }
-
 
 .main {
 }
@@ -69,10 +70,82 @@ button {
 }
 
 .hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  background-color: darkslategray;
 }
 
 .hero-btn {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  background-color: #fd9222;
+  border-radius: 100px;
 }
 
-.hero-btn-link {
+.hero-btn-link { font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+
+.hero-btn-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.section {
+}
+.benefits {
+  background-color: #1e1823;
+}
+
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-img {
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #ffffff;
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ingredients-hero-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.ingredients-span {
+  color: #fd9222;
+}
+
+.ingredients-hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #111111;
 }
